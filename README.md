@@ -4,7 +4,12 @@
     - create react app
     - configured tailwind
     - Header
-    - Login Form
+    - Routing for app
+    - Sign In Form/ Sign Up form
+    - Form Validations
+    - useRef hook
+    - Firebase setup
+    - Deploying our app
 
 
 
