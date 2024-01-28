@@ -10,6 +10,12 @@
     - useRef hook
     - Firebase setup
     - Deploying our app
+    - authentication api's (sign up, sign in, update profile )
+    - sign out
+    - Implemented redux store for user info & movies and trailer info
+    - Registered in TMDB and fetched the movies list
+    - Also fetched the videos (trailer videos)
+    - Embedded youtube video and play in background
 
 
 
