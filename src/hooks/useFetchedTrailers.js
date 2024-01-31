@@ -14,14 +14,12 @@ const useFetchedTrailers = (movieId) => {
       API_OPTIONS
     );
     const json = await data.json();
-    console.log(json.results);
 
     const trailers = json.results.filter((obj) => {
       return obj.type === "Trailer";
     });
 
     const mainTrailer = trailers.length ? trailers[0] : json.results[0];
-    console.log(mainTrailer);
     dispatch(addTrailers(mainTrailer));
   };
   useEffect(() => {
